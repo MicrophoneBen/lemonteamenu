@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:true,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+  <meta name="package-mapping" content="com_css_ghostben_lt_leftslider:com.css.ghostben.lt.leftslider">
+  <meta name="package-mapping" content="com_css_ghostben_lt_topmenu_design:com.css.ghostben.lt.topmenu.design">
+ </head>
+ <body>
+  <vaadin-vertical-layout style-name="inline-icon" size-full margin="false">
+   <vaadin-vertical-layout id="mainLayout" size-full margin="false" _id="mainLayout">
+    <vaadin-horizontal-layout style-name="inline-icon v-window-top-toolbar" width-full margin>
+     <vaadin-image id="公司Logo" width="200px" height="40px" alt="公司Logo" _id="cssLogo"></vaadin-image>
+     <vaadin-button disable-on-click icon="fonticon://Vaadin-Icons/e7ec" style-name="quiet" id="mainPage" width="50px" height="40px" plain-text icon-alt="主页" _id="mainPage"></vaadin-button>
+     <vaadin-combo-box scroll-to-selected-item page-length="5" empty-selection-allowed="false" style-name="align-center quiet align-center" id="function" placeholder="功能" empty-selection-caption="功能" width="100px" height="40px" data-item-type="java.lang.String" _id="mainFuc" :expand="2">
+      <option item="Option1">Option 1</option>
+      <option item="Option2">Option 2</option>
+      <option item="Option3">Option 3</option>
+     </vaadin-combo-box>
+     <vaadin-text-field icon="fonticon://Vaadin-Icons/e805" style-name="align-center valo-menu-item inline-icon" id="searchtxt" placeholder="输入进行搜索" width="220px" height="40px" maxlength="5" _id="searchTxt" :expand></vaadin-text-field>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e758" style-name="icon-only quiet" id="bellnav" width="50px" height="40px" plain-text icon-alt="通知" _id="bellnav"></vaadin-button>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e7c4" style-name="icon-only quiet" width="50px" height="40px" plain-text icon-alt="通知事项" _id="todoList"></vaadin-button>
+     <vaadin-combo-box page-length="5" empty-selection-allowed="false" style-name="inline-icon quiet" id="account" placeholder="我的功能选项" empty-selection-caption="员工编号" width="260px" height="40px" data-item-type="java.lang.String" _id="accountNav">
+      <option item="Option1">Option 1</option>
+      <option item="Option2">Option 2</option>
+      <option item="Option3">Option 3</option>
+     </vaadin-combo-box>
+    </vaadin-horizontal-layout>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>
